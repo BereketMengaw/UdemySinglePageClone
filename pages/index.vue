@@ -11,36 +11,9 @@
         <section class="text-center py-12 md:py-20">
           <CourseContent />
           <InstructorDetails />
-        </section>
-
-        <!-- Featured Courses Section -->
-        <section class="py-12">
-          <h2 class="text-3xl font-semibold text-gray-800 mb-8">
-            Featured Courses
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Course cards would go here -->
-            <div
-              v-for="i in 3"
-              :key="i"
-              class="bg-white rounded-lg shadow-md overflow-hidden"
-            >
-              <div class="h-48 bg-gray-200"></div>
-              <div class="p-6">
-                <h3 class="text-xl font-medium text-gray-800 mb-2">
-                  Course Title {{ i }}
-                </h3>
-                <p class="text-gray-600 mb-4">
-                  Brief course description goes here.
-                </p>
-                <button
-                  class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-colors"
-                >
-                  Enroll Now
-                </button>
-              </div>
-            </div>
-          </div>
+          <ChapterList />
+          <Requirment />
+          <Students />
         </section>
       </div>
     </main>
@@ -63,6 +36,9 @@ export default {
     FixedReview: () => import("~/components/FixedReview.vue"),
     CourseReviewTwo: () => import("~/components/CourseReviewTwo.vue"),
     InstructorDetails: () => import("~/components/InstructorDetails.vue"),
+    ChapterList: () => import("~/components/ChapterList.vue"),
+    Requirment: () => import("~/components/Requirment.vue"),
+    Students: () => import("~/components/Students.vue"),
   },
 
   // async asyncData({ $axios }) {

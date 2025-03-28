@@ -2,14 +2,18 @@
   <div class="navbar-container">
     <!-- Promo Banner -->
     <div v-if="bannerVisible" class="promo-banner">
-      <span class="banner-text">
-        Learn new skills from <strong>$10.99</strong> |
-      </span>
-      <span class="banner-text">
-        Thanks for trying a free course. Now, boost your learning with this
-        offer.
-        <strong class="highlight-text">1 day left!</strong>
-      </span>
+      <div>
+        <span class="banner-text">
+          Learn new skills from <strong>$10.99</strong> |
+        </span>
+
+        <span class="banner-text">
+          Thanks for trying a free course. Now, boost your learning with this
+          offer.
+        </span>
+      </div>
+      <strong class="highlight-text">1 day left!</strong>
+
       <button @click="closeBanner" class="close-banner">✕</button>
     </div>
 
@@ -96,8 +100,8 @@ const closeBanner = () => {
 
 .banner-text {
   color: #333;
-  margin: 0 5px;
-  padding: 20px 20px;
+  margin: 0 0px;
+  padding: 20px 2px;
 }
 
 .highlight-text {
