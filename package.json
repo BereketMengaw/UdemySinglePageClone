@@ -1,0 +1,22 @@
+{
+  "name": "course-page",
+  "version": "1.0.0",
+  "description": "My best Nuxt.js project",
+  "author": "BereketMengaw",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.4.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17"
+  }
+}
