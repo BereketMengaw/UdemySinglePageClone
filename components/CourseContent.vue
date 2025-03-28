@@ -1,30 +1,44 @@
 <template>
-  <div class="container">
-    <div class="left">
-      <p class="breadcrumb">
-        Finance & Accounting > Cryptocurrency & Blockchain > Bitcoin
-      </p>
-      <h1 class="title">Coinbase Come Comprare Bitcoin e Guadagnare™?</h1>
-      <p class="subtitle">
-        Come Acquistare e Guadagnare Facilmente Bitcoin Su Coinbase Corso Online
-        Completo In Italiano
-      </p>
-      <p class="rating">⭐⭐⭐⭐ (50 ratings) | 1,127 students</p>
-      <p class="author">
-        Created by <span class="highlight">ACI69 | Trading™</span>
-      </p>
-      <p class="updated">📅 Last updated 3/2025 | 🌍 Italian [Auto]</p>
+  <div>
+    <div class="container">
+      <div class="left">
+        <p class="breadcrumb text-sm text-white">
+          Finance & Accounting > Cryptocurrency & Blockchain > Bitcoin
+        </p>
+        <h1 class="title">Coinbase Come Comprare Bitcoin e Guadagnare™?</h1>
+        <p class="subtitle">
+          Come Acquistare e Guadagnare Facilmente Bitcoin Su Coinbase Corso
+          Online Completo In Italiano
+        </p>
+        <p class="rating">⭐⭐⭐⭐ (50 ratings) | 1,127 students</p>
+        <p class="author">
+          Created by <span class="highlight">ACI69 | Trading™</span>
+        </p>
+        <p class="updated">📅 Last updated 3/2025 | 🌍 Italian [Auto]</p>
+      </div>
+      <div class="right">
+        <courseReviews />
+      </div>
     </div>
-    <div class="right"></div>
   </div>
 </template>
 
+<script>
+export default {
+  components: {
+    courseReviews: () => import("~/components/CourseReviews.vue"),
+  },
+};
+</script>
+
 <style scoped>
+.text-white {
+  color: #fff;
+}
 .container {
   display: flex;
-
   background-color: #070715; /* Almost black with a hint of blue */
-
+  z-index: 700;
   color: white;
   padding: 20px;
   padding-left: 140px;
@@ -70,6 +84,7 @@
 }
 
 .right {
-  width: 40%;
+  width: 30%;
+  color: black;
 }
 </style>

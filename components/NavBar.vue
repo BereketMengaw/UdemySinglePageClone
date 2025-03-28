@@ -82,6 +82,7 @@ const closeBanner = () => {
 .navbar-container {
   position: relative;
   width: 100%;
+  z-index: 1000;
 }
 
 /* Promo Banner Styles */

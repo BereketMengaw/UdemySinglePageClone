@@ -2,6 +2,7 @@
   <div class="min-h-screen flex flex-col">
     <!-- NavBar at the top -->
     <NavBar />
+    <FixedReview />
 
     <!-- Main content area -->
     <main class="flex-grow container mx-auto px-4 py-8">
@@ -9,47 +10,7 @@
         <!-- Hero Section -->
         <section class="text-center py-12 md:py-20">
           <CourseContent />
-          <courseReviews />
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the best courses to enhance your skills and advance your
-            career.
-          </p>
+          <InstructorDetails />
         </section>
 
         <!-- Featured Courses Section -->
@@ -99,6 +60,9 @@ export default {
     NavBar: () => import("~/components/NavBar.vue"),
     CourseContent: () => import("~/components/CourseContent.vue"),
     courseReviews: () => import("~/components/CourseReviews.vue"),
+    FixedReview: () => import("~/components/FixedReview.vue"),
+    CourseReviewTwo: () => import("~/components/CourseReviewTwo.vue"),
+    InstructorDetails: () => import("~/components/InstructorDetails.vue"),
   },
 
   // async asyncData({ $axios }) {

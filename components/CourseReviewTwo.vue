@@ -16,8 +16,7 @@
         <span class="discount">50% off</span>
       </p>
       <p class="urgent">⏳ 1 day left at this price!</p>
-      <div><button class="add-to-cart">Add to cart</button></div>
-
+      <button class="add-to-cart">Add to cart</button>
       <button class="buy-now">Buy now</button>
       <p class="money-back">30-Day Money-Back Guarantee</p>
     </div>
@@ -52,11 +51,11 @@
 
 <style scoped>
 .course-sidebar {
-  right: 40px;
+  right: 195px;
   width: 300px;
   height: 100vh;
-  z-index: 1000;
   background: #fff;
+  z-index: 0; /* Ensure it stays on top of other content */
   padding: 20px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
@@ -128,11 +127,8 @@
 }
 
 .buy-now {
-  border-radius: 10px;
-  border-color: #9333ea;
-  border-width: 10px;
-  color: #9333ea;
-  border: #9333ea;
+  background: #9333ea;
+  color: white;
 }
 
 .money-back {
