@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # course-page
 
 > My best Nuxt.js project
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+=======
+# UdemySinglePageClone
+Test For NuxtJS Front-End Developer
+>>>>>>> 6579059b575d234fd07a02c78e81d22bc7dafc2c
