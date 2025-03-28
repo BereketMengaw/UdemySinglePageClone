@@ -86,9 +86,9 @@ const closeBanner = () => {
 
 /* Promo Banner Styles */
 .promo-banner {
-  background-color: #e3f2fd;
+  background-color: #b7f4f0;
   text-align: center;
-  padding: 8px 0;
+  padding: 35px 20px;
   font-size: 14px;
   position: relative;
 }
@@ -96,6 +96,7 @@ const closeBanner = () => {
 .banner-text {
   color: #333;
   margin: 0 5px;
+  padding: 20px 20px;
 }
 
 .highlight-text {
