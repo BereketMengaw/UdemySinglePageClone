@@ -2,7 +2,7 @@
   "name": "nuxt-udemy-course-page",
   "version": "1.0.0",
   "description": "A static single page Udemy course page built with Nuxt.js",
-  "author": "Your Name",
+  "author": "Bereket Mengaw",
   "license": "MIT",
   "scripts": {
     "dev": "nuxt",

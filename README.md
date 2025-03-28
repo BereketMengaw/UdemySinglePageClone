@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+
 # course-page
 
 > My best Nuxt.js project
+
+Live link : (click it ) https://aladiaudemy.netlify.app/
 
 ## Build Setup
 
@@ -20,8 +23,10 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
+# For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
 # UdemySinglePageClone
+
 Test For NuxtJS Front-End Developer
->>>>>>> 6579059b575d234fd07a02c78e81d22bc7dafc2c
+
+> > > > > > > 6579059b575d234fd07a02c78e81d22bc7dafc2c
