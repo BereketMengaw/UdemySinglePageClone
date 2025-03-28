@@ -4,6 +4,8 @@
 
 > My best Nuxt.js project
 
+![alt text](thumb.jpg)
+
 Live link : (click it ) https://aladiaudemy.netlify.app/
 
 ## Build Setup

@@ -14,16 +14,10 @@
           <ChapterList />
           <Requirment />
           <Students />
+          <Mark />
         </section>
       </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-8">
-      <div class="container mx-auto px-4 text-center">
-        <p>&copy; 2023 Your Course Platform. All rights reserved.</p>
-      </div>
-    </footer>
   </div>
 </template>
 
@@ -39,6 +33,7 @@ export default {
     ChapterList: () => import("~/components/ChapterList.vue"),
     Requirment: () => import("~/components/Requirment.vue"),
     Students: () => import("~/components/Students.vue"),
+    Mark: () => import("~/components/Mark.vue"),
   },
 
   // async asyncData({ $axios }) {
